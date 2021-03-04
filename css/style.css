@@ -1,0 +1,162 @@
+html,body{
+  margin: 0;
+  padding: 0;
+}
+
+body
+{
+  /* background-image: url('../img/gradient.png'); */
+  background: radial-gradient(circle at top, #bcd7a9 , #850342);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+header
+{
+  margin: 100px 50px;
+  padding: 0;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.89);
+}
+
+.img-profil
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.img-profil div
+{
+  margin: 50px 0;
+  background-color: rgba(255, 255, 255, 0.397);
+  border-radius: 50%;
+  border: 0.2px solid white;
+  padding: 10px;
+  box-shadow: 0 0 5px 0px rgba(27, 25, 25, 0.315);
+}
+
+.img-profil img{
+  border-radius: 50% ;
+}
+
+header p
+{
+  margin: 20px 0;
+  font-size: 40px;
+  font-family: 'Work Sans', sans-serif;
+
+}
+
+
+header span
+{
+  margin: 0 20px;
+
+}
+
+header .icon
+{
+  font-size: 40px;
+  color: rgba(255, 255, 255, 0.938);
+}
+
+.bootstrap
+{
+  margin-bottom: 70px;
+}
+
+.bootstrap .col-sm-4
+{
+  max-width: unset !important;
+}
+
+.bootstrap .card
+{
+  box-shadow: 0 0 4px 0 rgba(255, 255, 255, 0.575);
+  padding: 03px;
+  border: unset;
+  margin: 20px 0px;
+  text-align: center;
+  font-family: 'Nunito', sans-serif;
+  background-color: rgba(255, 255, 255, 0.151);
+}
+
+.bootstrap .card h5
+{
+  font-weight: 300;
+
+}
+
+main
+{
+  margin-bottom: 80px;
+  /* color: white; */
+  color: black;
+}
+
+.mine
+{
+  margin: 50px 0;
+}
+
+.mine section
+{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.mine .my-card
+{
+  display: inline-block;
+  box-shadow: 0 0 4px 0 rgba(255, 255, 255, 0.575);
+  border: unset;
+  margin: 20px 20px;
+  border-radius: 5px;
+  font-family: 'Nunito', sans-serif;
+  background-color: rgba(255, 255, 255, 0.151);
+  width: 300px;
+  font-weight: 300;
+  font-size: 20px;
+  align-self: flex-start;
+}
+.mine .my-card div
+{
+  margin: 0;
+  padding: 0;
+}
+
+.mine .my-card .card-title
+{
+  text-align: center;
+}
+
+.mine img
+{
+  width: 300px;
+  border-radius: 5px 5px 0 0;
+  margin:0 0 30px 0px ;
+  padding: 3px;
+
+}
+
+
+footer
+{
+  text-align: center;
+  font-family: 'Work Sans', sans-serif;
+  color: rgb(255, 255, 255);
+  margin: 100px 0 60px 0 ;
+}
+
+
+.card:hover, .my-card:hover
+{
+  box-shadow: 0 0 8px 0 rgb(255, 255, 255);
+}
+
+header .icon:hover
+{
+  color: rgb(243, 217, 217);
+}
